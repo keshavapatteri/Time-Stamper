@@ -1,0 +1,93 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.tracker-container {
+  background: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.text-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.action-button {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.action-button:hover {
+  background: #0056b3;
+}
+
+.image-canvas {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.date-time-input {
+  font-size: 18px;
+  padding: 12px;
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  outline: none;
+  padding-top: 10px;
+}
+
+.date-time-input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
